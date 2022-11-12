@@ -67,7 +67,7 @@ boolean[] boundedRatio(int[] a, int l, int r) {
             if (a[i] == (i + 1) * x) {
                 b[i] = true;
             }else{
-                System.out.println("EXIT");
+                System.out.println("EXIT123");
         }
         }
     }
