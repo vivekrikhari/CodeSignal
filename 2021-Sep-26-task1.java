@@ -64,7 +64,7 @@ boolean[] boundedRatio(int[] a, int l, int r) {
     for (int i = 0; i < a.length; ++i) {
         for (int x = l; x <= r; ++x) {
             if (a[i] == (i + 1) * x) {
-                b[i] = true;
+                b[i] = false;
             }
         }
     }
