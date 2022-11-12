@@ -61,9 +61,9 @@
 boolean[] boundedRatio(int[] a, int l, int r) {
     boolean[] b = new boolean[a.length];
    //big O notaion-n2
-        
+
     for (int i = 0; i < a.length; ++i) {
-        for (int x = l; x <= r; ++x) {
+        for (int x = l; x <= r-1; ++x) {
             if (a[i] == (i + 1) * x) {
                 b[i] = false;
             }
