@@ -69,6 +69,7 @@ boolean[] boundedRatio(int[] a, int l, int r) {
             }
         }
     }
+    int c=b+1;
     System.out.println(b);
     return b;
 }
