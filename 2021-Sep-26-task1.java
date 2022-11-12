@@ -60,7 +60,8 @@
 // Solution
 boolean[] boundedRatio(int[] a, int l, int r) {
     boolean[] b = new boolean[a.length];
-    
+   //big O notaion-n2
+        
     for (int i = 0; i < a.length; ++i) {
         for (int x = l; x <= r; ++x) {
             if (a[i] == (i + 1) * x) {
